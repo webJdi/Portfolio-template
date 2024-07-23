@@ -1,0 +1,29 @@
+html, body
+{
+    margin: 0;
+    padding: 0;
+    background-color: #DAEDE2;
+    box-sizing: content-box;
+}
+
+.navbar
+{
+    background-color: #3A4553;
+    height: 100%;
+    width: 30%;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 0;
+}
+.content-wrap
+{
+    background-color: rgba(119,196,211,0.7);
+    width: 85%;
+    padding: 2em;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    min-height: 800px;
+
+}
