@@ -4,8 +4,14 @@ html, body
     padding: 0;
     background-color: #DAEDE2;
     box-sizing: content-box;
+    min-height: 1650px;
 }
-
+*
+{
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
 .navbar
 {
     background-color: #3A4553;
@@ -24,6 +30,71 @@ html, body
     position: absolute;
     top: 15%;
     left: 5%;
-    min-height: 800px;
+    height: 1400px;
+    padding-right: 0;
+}
+.heading
+{
+    background-color: #EA2E49;
+    padding: 0.5em;
+    width: 10em;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+}
 
+.heading-2
+{
+    font-size: 5em;
+    color: #fff;
+    max-width: 70%;
+    text-align: left;
+    float: left;
+}
+.heading-2 span
+{
+    color: #1abc9c;
+}
+.skills
+{
+    width: 30%;
+    float: right;
+    min-height: 500px;
+    background-color: rgba(234, 242, 153, 0.75);
+}
+.projects
+{
+    width: 55%;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    min-height: 600px;
+    background-color: rgba(256,256,256,0.75);
+    z-index: 2;
+    padding: 2em;
+}
+
+#projects-heading
+{
+    font-size: 2.2em;
+    color: #000;
+    text-align: center;
+}
+#skills-heading
+{
+    font-size: 2em;
+    color: #000;
+    text-align: center;
+    margin: 2em;
+}
+
+.contacts
+{
+    padding: 1em;
+    width: 30%;
+    background-color:rgba(234, 242, 153, 0.75) ;
+    min-height: 2em;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
 }
